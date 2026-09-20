@@ -5,3 +5,5 @@
 
 .hero-price strong span{margin-left:4px}.mobile-cta strong{margin-right:3px}@media(max-width:640px){h1 br:first-child{display:initial}h1>br{display:none}.eyebrow{font-size:12px}.micro{font-size:12px}.art-caption small{font-size:12px;letter-spacing:1px}.category-strip .wrap{font-size:12px;gap:12px}.benefit-grid span{font-size:12px}}
 
+
+.privacy-inline{max-width:600px;border:0;margin-left:24px}.privacy-inline summary{padding:0 24px 10px 0;font-size:12px;text-align:right}.privacy-inline summary:after{top:-6px;font-size:20px}.privacy-inline p{font-size:13px;text-align:left}.price-box .button{gap:12px}@media(max-width:640px){.price-box .button{font-size:14px;padding-inline:12px}.faq .button{font-size:14px;gap:14px}}

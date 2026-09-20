@@ -6,7 +6,3 @@ document.querySelectorAll('[data-contact]').forEach(link => {
     }));
   });
 });
-const privacy = document.querySelector('#privacy');
-document.querySelector('#privacy-open').addEventListener('click', () => privacy.showModal());
-document.querySelector('#privacy-close').addEventListener('click', () => privacy.close());
-privacy.addEventListener('click', event => { if (event.target === privacy) { const r = privacy.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) privacy.close(); } });

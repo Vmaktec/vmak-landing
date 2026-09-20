@@ -1,15 +1,9 @@
-# Vmak
+# Vmak — página de campanha
 
-Landing page estática responsiva, em português, para o plano de R$ 35/mês. HTML, CSS e JavaScript sem dependências de produção. Publicação na Vercel a partir da pasta `dist`.
+Página estática de uma tela, com mascote otimizado, plano de R$ 35/mês e link para WhatsApp (54) 99949-8852. HTML/CSS/JS sem dependências de produção. Publicação automática pela Vercel a partir de dist.
 
-## Conteúdo e contato
+Em telas comuns, todo o anúncio cabe sem rolagem. Em janelas excepcionalmente baixas ou com zoom, o conteúdo permanece acessível por rolagem em vez de ser cortado.
 
-O WhatsApp 55 54 99949-8852 e a cidade Passo Fundo/RS vêm das artes fornecidas. O mascote foi adaptado a partir da referência para remover marcas de terceiros. Catálogo, dispositivos, telas e condições comerciais são confirmados pelo atendimento; a página não promete títulos específicos, qualidade de imagem, teste grátis ou disponibilidade irrestrita.
+## Pixel da Meta
 
-## Campanhas e privacidade
-
-Os links têm `data-contact` por posicionamento. O evento local `vmak:contact` indica um clique de contato, não uma venda. Não há pixel, analytics, cookies, armazenamento ou transferência automática de parâmetros de campanha. Se futuramente houver medição, configurar consentimento e atualizar o texto de privacidade conforme a implementação real. Não instalar pixels automaticamente.
-
-## Manutenção
-
-Editar `dist/index.html`, `dist/style.css` e `dist/app.js`. Validar o site em celular e desktop antes de publicar. `vercel.json` define a saída estática e cabeçalhos de segurança. Não requer build. Servir `dist` em um servidor HTTP local para revisão.
+Pendente: ID do pixel a ser fornecido pelo proprietário. Nenhum pixel ou rastreador está ativo. O evento local vmak:contact identifica apenas clique no WhatsApp, não venda. Quando integrar o pixel, atualizar a privacidade e a Content-Security-Policy em vercel.json e verificar PageView e o evento de clique em ambiente apropriado.
